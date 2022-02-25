@@ -1,0 +1,45 @@
+
+body {
+
+      	
+  	animation: colorchange 20s infinite;
+}
+     
+@keyframes colorchange {
+   0% {
+     background-color: lightblue;
+   }
+   25% {
+     background-color: pink;
+   }
+   50% {
+     background-color: lightgray;
+   }
+   75% {
+     background-color: pink;
+   }
+   100% {
+     background-color: orange;
+   }
+    	
+    	
+}
+
+
+.bg-green{
+	background-color: rgb(153,255,51);
+}
+
+.text-white{
+   color: white
+   }
+
+      
+.container{
+  display: block;
+	width: 50%;
+	margin: auto;
+}  
+	
+
+
